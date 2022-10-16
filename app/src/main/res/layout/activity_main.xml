@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE6E6"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonFindOutSizeOfClothes"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="323dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="58dp"
+        android:backgroundTint="#6F8591FF"
+        android:onClick="buttonFindOutSizeOfClothes"
+        android:text="Узнать свой размер"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRequestHistory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRequestHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="254dp"
+        android:backgroundTint="#EA9B9B"
+        android:onClick="buttonRequestHistory"
+        android:text="История запросов"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFindOutSizeOfClothes" />
+</androidx.constraintlayout.widget.ConstraintLayout>

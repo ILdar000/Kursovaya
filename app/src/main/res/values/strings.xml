@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">KursovayaEl</string>
+    <string-array name="typeOfClothingWoman">
+        <item>Рубашка</item>
+        <item>Юбка</item>
+        <item>Платье</item>
+        <item>Джинсы,Штаны</item>
+    </string-array>
+
+    <string-array name="typeOfClothingMan">
+        <item>Рубашка,куртки костюмы</item>
+        <item>Джинсы,Штаны</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+
+    <string-array name="age">
+        <item>Взрослый</item>
+        <item>Детский</item>
+    </string-array>
+
+    <string-array name="ageShoes">
+        <item>Женский</item>
+        <item>Мужской</item>
+        <item>Детский</item>
+    </string-array>
+</resources>
